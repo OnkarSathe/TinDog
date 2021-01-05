@@ -1,0 +1,149 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+#title{
+	background-color: #ff4c68;
+	color: white;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	padding-top: 50px;
+}
+#heading-two{
+	font-family: 'Ubuntu-Bold', sans-serif;
+	font-size: 50px;
+	line-height: 1.5;
+}
+.image{
+	position: relative;
+	padding-top: 40px;
+}
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0px 18px;
+}
+.nav-link{
+	font-weight: light;
+	font-size: 1.5rem;
+}
+.navbar-nav ml-auto{
+	padding-left: 300px;
+}
+#heading{
+	font-size: 2.5rem;
+}
+#heading-to{
+	font-size: 2.5rem;
+	width: 600px;
+	text-align: centre;
+	padding-left: 80px;
+}
+#heading-three{
+	font-size: 2.5rem;
+}
+.fa fa-check-circle{
+	color: #8f8f8f;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+.image{
+	width: 30%;
+	height: 80%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 10%;
+}
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+p{
+	color: #8f8f8f;
+}
+h3{
+	font-size: 1rem;
+}
+.fa{
+	color: #ef8172;
+	margin-bottom: 2rem;
+}
+.fa:hover{
+	color: #ff4c68;
+}
+#testimonials{
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+.testimonial-image{
+	border-radius: 100%;
+	width: 20%;
+	margin: 20px;
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 4%;
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+#pricing{
+	text-align: center;
+	padding-top: 50px;
+}
+#pricing-heading{
+	font-size: 3rem;
+}
+
+@media(max-width: 1000px){
+	.image{
+		position: static;
+		transform: rotate(0);
+}
+	#title{
+		text-align: center;
+}
+}
+#cta{
+	background-color: #ff4c68;
+	padding: 100px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+#cta-heading{
+	color: #fff;
+	font-size: 3.5rem;
+	margin-bottom: 50px;
+}
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #fff;
+}
+.footer-image{
+	width: 5%;
+	height: 5%;
+}
+.social-icon{
+	margin: 20px 10px;
+}
+
